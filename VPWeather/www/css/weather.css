@@ -1,0 +1,79 @@
+body {
+            font-family: "verb","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+        }
+        #curTemp {
+            font-weight:bold;font-size:large;
+        }
+        #curWind {
+            width:50px;
+            height:50px;
+            position: relative;
+            margin: 0 auto;
+            white-space:nowrap
+        }
+        #windCompass {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;          
+        }
+       
+        .windCompassSpeed {
+            font-weight:600;
+            position:relative;
+            left:10px;
+            top:20px;
+            font-size:1.5rem;
+           
+        }
+
+        .arrow-direction {
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 18px solid #1e2023;
+            position: absolute;
+            left: 23.5px;
+            top: -10px;
+        }
+        .dial {
+            border-radius: 50%;
+            width: 59px;
+            height: 59px;
+            border: 3px solid #818282;
+            position: relative;
+            /*-moz-box-sizing: content-box;
+            -webkit-box-sizing: content-box;*/
+            box-sizing: content-box;
+        }
+        #windN {
+            left: 5px;
+            top:8px;
+            text-align: center;
+            position: relative;
+            font-size:1rem;
+        }
+        .wx-data {
+        }
+
+        .wx-value {
+            white-space:nowrap
+        }
+
+        .wx-unit {
+        }
+
+        .today {
+            font-weight:700
+        }
+        .almanac {
+            position:relative;
+            left: 10px
+        }
+        .alert {
+            color:red;font-size:12pt
+        }
+        .forecast {
+            font-size:8pt;
+        }

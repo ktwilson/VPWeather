@@ -1,0 +1,11 @@
+{
+     "android": {
+      "release": {
+        "keystore": "c:\\Users\\wilsoadmin\\vpweather-key.keystore",
+        "storePassword": "riley2063",
+        "alias": "kwilson",
+        "password": "riley2063",
+        "keystoreType": ""
+      }
+     }
+ }
